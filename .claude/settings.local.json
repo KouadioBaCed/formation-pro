@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(dir \"C:\\Users\\lenovo\\Downloads\\bifa_quiz\\bifa-exam\\src\" /s)",
+      "Bash(npm run dev:*)",
+      "Bash(node:*)",
+      "Bash(npx ts-node:*)",
+      "Bash(npm run build:*)",
+      "Bash(timeout 10 npm run dev:*)",
+      "Bash(tree:*)",
+      "Bash(timeout /t 5)",
+      "mcp__ide__getDiagnostics",
+      "Bash(grep:*)",
+      "Bash(xargs -I{} sh -c 'echo \"\"=== {} ===\"\" && grep \"\"export const\"\" {}')",
+      "Bash(npx vite build:*)",
+      "Bash(dir:*)",
+      "Bash(npm install:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell:*)",
+      "Bash(done)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(tasklist:*)",
+      "Bash(find C:UserslenovoDownloadsbifa_quizbifa-examsrcdatacisa -type f -name *.ts)",
+      "Bash(ls -la dist/assets/*.js)",
+      "Bash(ls dist/assets/*.js)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(curl -s http://localhost:5173/src/pages/TopicsPage.tsx)",
+      "Bash(curl -s http://localhost:5173/@fs/C:/Users/lenovo/Downloads/bifa_quiz/bifa-exam/src/pages/TopicsPage.tsx)",
+      "Bash(curl -s http://localhost:5173/src/pages/TopicsPage.tsx?import)",
+      "Bash(curl -sI http://localhost:5173/src/pages/TopicsPage.tsx)",
+      "Bash(cd:*)",
+      "Bash(node -e \":*)",
+      "Bash(rm -rf node_modules/.vite)",
+      "Bash(pkill -f \"vite\")",
+      "Bash(taskkill //F //IM \"node.exe\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

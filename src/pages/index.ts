@@ -1,0 +1,10 @@
+export { HomePage } from './HomePage';
+export { TopicsPage } from './TopicsPage';
+export { TopicDetailPage } from './TopicDetailPage';
+export { QuestionPage } from './QuestionPage';
+export { ExamPage } from './ExamPage';
+export { LoginPage } from './LoginPage';
+export { AdminPage } from './AdminPage';
+export { DashboardPage } from './DashboardPage';
+export { ExamReviewPage } from './ExamReviewPage';
+export { default as PrivacyAndTermsPage } from './PrivacyAndTermsPage';

@@ -1,0 +1,172 @@
+src/data/final_exam_pmp_two.ts(28,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(42,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(56,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(71,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(85,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(99,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(113,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(127,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(141,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(155,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(169,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(183,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(197,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(211,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(225,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(239,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(253,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(267,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(281,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(295,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(309,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(323,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(337,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(351,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(365,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(379,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(393,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(407,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(421,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(435,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(449,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(463,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(477,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(491,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(506,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(520,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(534,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(549,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(563,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(577,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2041,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2053,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2066,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2078,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2090,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2102,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2114,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2126,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2138,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2151,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2163,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2175,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2187,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2199,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/final_exam_pmp_two.ts(2211,5): error TS2353: Object literal may only specify known properties, and 'correctAnswer' does not exist in type 'Question'.
+src/data/mini_examen_pmp_five.ts(254,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(255,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(256,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(257,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(266,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(267,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(268,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(269,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(278,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(279,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(280,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(281,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(290,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(291,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(292,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(293,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(302,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(303,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(304,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(305,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(314,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(315,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(316,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(317,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(326,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(327,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(328,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(329,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(338,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(339,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(340,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(341,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(350,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(351,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(352,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(353,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(362,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(363,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(364,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_five.ts(365,7): error TS2322: Type '{ label: string; text: string; }' is not assignable to type 'string'.
+src/data/mini_examen_pmp_four.ts(265,7): error TS2353: Object literal may only specify known properties, and 'E' does not exist in type '{ A: string; B: string; C: string; D: string; }'.
+src/data/mini_examen_pmp_four.ts(338,7): error TS2353: Object literal may only specify known properties, and 'E' does not exist in type '{ A: string; B: string; C: string; D: string; }'.
+src/data/mini_examen_pmp_one.ts(228,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(246,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(260,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(274,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(288,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(304,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(320,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(336,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(350,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(359,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(373,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(387,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(403,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(419,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_one.ts(435,5): error TS2739: Type 'string[]' is missing the following properties from type '{ A: string; B: string; C: string; D: string; }': A, B, C, D
+src/data/mini_examen_pmp_three.ts(256,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(257,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(258,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(259,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(272,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(273,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(274,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(275,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(288,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(289,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(290,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(291,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(301,15): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(301,28): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(301,39): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(301,54): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(311,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(312,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(313,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(314,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(325,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(326,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(327,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(328,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(339,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(340,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(341,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(342,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(355,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(356,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(357,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(358,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(371,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(372,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(373,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(374,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(387,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(388,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(389,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_three.ts(390,7): error TS2322: Type 'string' is not assignable to type '{ label: string; text: string; }'.
+src/data/mini_examen_pmp_two.ts(255,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(268,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(281,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(293,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(305,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(317,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(329,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(341,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(353,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.
+src/data/mini_examen_pmp_two.ts(365,5): error TS2322: Type 'string[]' is not assignable to type '{ [key: string]: string; }'.
+  Index signature for type 'string' is missing in type 'string[]'.

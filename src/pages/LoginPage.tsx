@@ -1,0 +1,273 @@
+import { useState } from 'react';
+import { Navigate } from 'react-router-dom';
+import { LogIn, UserPlus, Mail, Lock, User, Loader2, CheckCircle, Sparkles, Phone } from 'lucide-react';
+import { useAuth } from '../contexts/AuthContext';
+import { useStore } from '../store/useStore';
+import { t } from '../i18n';
+
+const ADMIN_PHONE = '+225 0708916464';
+const ADMIN_WHATSAPP_URL = 'https://wa.me/2250708916464';
+
+export const LoginPage = () => {
+  const { firebaseUser, appUser, loading, login, register } = useAuth();
+  const { lang } = useStore();
+  const [activeTab, setActiveTab] = useState<'login' | 'register'>('register');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [displayName, setDisplayName] = useState('');
+  const [formError, setFormError] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [registered, setRegistered] = useState(false);
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
+  const [clickedTerms, setClickedTerms] = useState(false);
+  const [clickedPrivacy, setClickedPrivacy] = useState(false);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-dark-50 dark:bg-dark-950">
+        <Loader2 className="w-8 h-8 text-primary-500 animate-spin" />
+      </div>
+    );
+  }
+
+  if (firebaseUser && appUser) {
+    return <Navigate to="/" replace />;
+  }
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setFormError('');
+    setSubmitting(true);
+    try {
+      await login(email, password);
+    } catch {
+      setFormError(t(lang, 'loginError'));
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleRegister = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setFormError('');
+    if (!(acceptedTerms && clickedTerms && clickedPrivacy)) {
+      setFormError(t(lang, 'mustAcceptTerms'));
+      return;
+    }
+    if (password.length < 6) {
+      setFormError(t(lang, 'passwordTooShort'));
+      return;
+    }
+    setSubmitting(true);
+    try {
+      await register(email, password, displayName);
+      setRegistered(true);
+    } catch {
+      setFormError(t(lang, 'registerError'));
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  if (registered) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-dark-900 via-dark-800 to-primary-900 px-4">
+        <div className="card p-8 max-w-md w-full text-center">
+          <CheckCircle className="w-16 h-16 text-success mx-auto mb-4" />
+          <h2 className="text-xl font-bold text-dark-900 dark:text-white mb-2">
+            {t(lang, 'accountCreated')}
+          </h2>
+          <p className="text-dark-600 dark:text-dark-400 mb-4">
+            {t(lang, 'accountCreatedDesc')}
+          </p>
+
+          {/* Contact admin */}
+          <div className="p-4 rounded-xl bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 mb-6">
+            <p className="text-sm font-medium text-primary-800 dark:text-primary-300 mb-3">
+              {t(lang, 'contactAdminToActivate')}
+            </p>
+            <a
+              href={ADMIN_WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-green-500 hover:bg-green-600 text-white font-medium text-sm transition-colors"
+            >
+              <Phone className="w-4 h-4" />
+              WhatsApp : {ADMIN_PHONE}
+            </a>
+          </div>
+
+          <button
+            onClick={() => { setRegistered(false); setActiveTab('login'); }}
+            className="btn-primary"
+          >
+            {t(lang, 'backToLogin')}
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-dark-900 via-dark-800 to-primary-900 px-4">
+      <div className="w-full max-w-md">
+        {/* Logo */}
+        <div className="text-center mb-8">
+          <div className="flex items-center justify-center gap-3 mb-2">
+            <img src="/bifa.png" alt="BIFA Logo" className="w-12 h-12 rounded-xl object-contain" />
+            <h1 className="text-2xl font-bold text-white flex items-center gap-2">
+              BIFA <span className="text-gradient">EXAM</span>
+              {/* <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse" /> */}
+            </h1>
+          </div>
+        </div>
+
+        <div className="card p-6 sm:p-8">
+          {/* Tabs */}
+          <div className="flex mb-6 bg-dark-100 dark:bg-dark-800 rounded-xl p-1">
+            <button
+              onClick={() => { setActiveTab('login'); setFormError(''); }}
+              className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                activeTab === 'login'
+                  ? 'bg-white dark:bg-dark-700 text-primary-600 dark:text-primary-400 shadow-sm'
+                  : 'text-dark-500 dark:text-dark-400 hover:text-dark-700 dark:hover:text-dark-300'
+              }`}
+            >
+              <LogIn className="w-4 h-4" />
+              {t(lang, 'login')}
+            </button>
+            <button
+              onClick={() => { setActiveTab('register'); setFormError(''); }}
+              className={`flex-1 flex items-center justify-center gap-2 py-2.5 rounded-lg text-sm font-medium transition-all ${
+                activeTab === 'register'
+                  ? 'bg-white dark:bg-dark-700 text-primary-600 dark:text-primary-400 shadow-sm'
+                  : 'text-dark-500 dark:text-dark-400 hover:text-dark-700 dark:hover:text-dark-300'
+              }`}
+            >
+              <UserPlus className="w-4 h-4" />
+              {t(lang, 'register')}
+            </button>
+          </div>
+
+          {formError && (
+            <div className="mb-4 p-3 rounded-lg bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 text-red-700 dark:text-red-400 text-sm">
+              {formError}
+            </div>
+          )}
+
+          <form onSubmit={activeTab === 'login' ? handleLogin : handleRegister} className="space-y-4">
+            {activeTab === 'register' && (
+              <div>
+                <label className="block text-sm font-medium text-dark-700 dark:text-dark-300 mb-1.5">
+                  {t(lang, 'fullName')}
+                </label>
+                <div className="relative">
+                  <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-dark-400" />
+                  <input
+                    type="text"
+                    value={displayName}
+                    onChange={(e) => setDisplayName(e.target.value)}
+                    required
+                    className="input pl-10 py-2.5"
+                    placeholder={t(lang, 'fullNamePlaceholder')}
+                  />
+                </div>
+              </div>
+            )}
+
+            <div>
+              <label className="block text-sm font-medium text-dark-700 dark:text-dark-300 mb-1.5">
+                {t(lang, 'email')}
+              </label>
+              <div className="relative">
+                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-dark-400" />
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  className="input pl-10 py-2.5"
+                  placeholder={t(lang, 'emailPlaceholder')}
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-dark-700 dark:text-dark-300 mb-1.5">
+                {t(lang, 'password')}
+              </label>
+              <div className="relative">
+                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-dark-400" />
+                <input
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  className="input pl-10 py-2.5"
+                  placeholder={t(lang, 'passwordPlaceholder')}
+                />
+              </div>
+            </div>
+
+            {activeTab === 'register' && (
+              <div className="flex items-start gap-2">
+                <input
+                  type="checkbox"
+                  id="acceptTerms"
+                  checked={acceptedTerms}
+                  onChange={(e) => setAcceptedTerms(e.target.checked)}
+                  className="mt-1 w-4 h-4 rounded border-dark-300 dark:border-dark-600 text-primary-500 focus:ring-primary-500 cursor-pointer"
+                />
+                <label htmlFor="acceptTerms" className="text-xs text-dark-600 dark:text-dark-400 cursor-pointer">
+                  {t(lang, 'acceptTerms')}{' '}
+                  <a href="/terms" target="_blank" onClick={() => setClickedTerms(true)} className={`underline ${clickedTerms ? 'text-green-500' : 'text-primary-500 hover:text-primary-400'}`}>{t(lang, 'termsOfUse')}</a>{' '}
+                  {t(lang, 'and')}{' '}
+                  <a href="/privacy" target="_blank" onClick={() => setClickedPrivacy(true)} className={`underline ${clickedPrivacy ? 'text-green-500' : 'text-primary-500 hover:text-primary-400'}`}>{t(lang, 'privacyPolicy')}</a>
+                </label>
+              </div>
+            )}
+
+            <button
+              type="submit"
+              disabled={submitting || (activeTab === 'register' && !(acceptedTerms && clickedTerms && clickedPrivacy))}
+              className={`btn-primary w-full py-3 text-sm ${activeTab === 'register' && !(acceptedTerms && clickedTerms && clickedPrivacy) ? 'opacity-50 cursor-not-allowed' : ''}`}
+            >
+              {submitting ? (
+                <Loader2 className="w-4 h-4 animate-spin" />
+              ) : activeTab === 'login' ? (
+                <>
+                  <LogIn className="w-4 h-4" />
+                  {t(lang, 'login')}
+                </>
+              ) : (
+                <>
+                  <UserPlus className="w-4 h-4" />
+                  {t(lang, 'register')}
+                </>
+              )}
+            </button>
+          </form>
+
+          {/* Switch link under form */}
+          <div className="mt-4 text-center">
+            {activeTab === 'login' ? (
+              <button
+                onClick={() => { setActiveTab('register'); setFormError(''); }}
+                className="text-sm text-primary-500 hover:text-primary-400 transition-colors"
+              >
+                {t(lang, 'noAccountYet')}
+              </button>
+            ) : (
+              <button
+                onClick={() => { setActiveTab('login'); setFormError(''); }}
+                className="text-sm text-primary-500 hover:text-primary-400 transition-colors"
+              >
+                {t(lang, 'alreadyHaveAccount')}
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
