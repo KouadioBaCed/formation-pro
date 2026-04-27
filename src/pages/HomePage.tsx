@@ -31,8 +31,8 @@ const testimonials = [
     certification: 'PMP®',
     photo: '/images/kra_koukou_alexis_pmp.jpg',
     text: {
-      fr: "Je l'ai fait. Honnêtement, à un moment, je me sentais perdu dans la préparation du PMP®. Trop de concepts, trop de pression, et beaucoup de doutes. En découvrant BIFA EXAM, j'ai enfin compris comment raisonner comme l'examen l'exige. La préparation m'a donné de la méthode et de la confiance.",
-      en: "I did it. Honestly, at one point I felt lost in my PMP® preparation. Too many concepts, too much pressure, and a lot of doubt. When I discovered BIFA EXAM, I finally understood how to think the way the exam requires. The preparation gave me method and confidence. On exam day, I knew how to approach each question.",
+      fr: "Je l'ai fait. Honnêtement, à un moment, je me sentais perdu dans la préparation du PMP®. Trop de concepts, trop de pression, et beaucoup de doutes. En découvrant Fin Mark, j'ai enfin compris comment raisonner comme l'examen l'exige. La préparation m'a donné de la méthode et de la confiance.",
+      en: "I did it. Honestly, at one point I felt lost in my PMP® preparation. Too many concepts, too much pressure, and a lot of doubt. When I discovered Fin Mark, I finally understood how to think the way the exam requires. The preparation gave me method and confidence. On exam day, I knew how to approach each question.",
     },
   },
   {
@@ -40,8 +40,8 @@ const testimonials = [
     certification: 'Project DPro® (PM4NGOs)',
     photo: '/images/esdras_project_dpro_pmd.png',
     text: {
-      fr: "Je cherchais une préparation réellement adaptée au terrain. Avec BIFA EXAM, j'ai compris ce que la certification attendait concrètement. Les contenus sont clairs, pratiques et directement applicables dans les projets de développement. Cette certification a clairement renforcé mon efficacité professionnelle.",
-      en: "I was looking for preparation truly adapted to the field. With BIFA EXAM, I understood what the certification concretely expected. The content is clear, practical and directly applicable in development projects. This certification clearly strengthened my professional effectiveness.",
+      fr: "Je cherchais une préparation réellement adaptée au terrain. Avec Fin Mark, j'ai compris ce que la certification attendait concrètement. Les contenus sont clairs, pratiques et directement applicables dans les projets de développement. Cette certification a clairement renforcé mon efficacité professionnelle.",
+      en: "I was looking for preparation truly adapted to the field. With Fin Mark, I understood what the certification concretely expected. The content is clear, practical and directly applicable in development projects. This certification clearly strengthened my professional effectiveness.",
     },
   },
   {
@@ -49,8 +49,8 @@ const testimonials = [
     certification: 'PMP®',
     photo: '/images/kacou_ingrid_eleonore_nanguy_pmp.jpg',
     text: {
-      fr: "Je savais que le PMP® serait un vrai défi. BIFA EXAM m'a apporté une préparation progressive et rassurante, sans jamais me noyer dans la théorie. J'ai appris à raisonner, pas à mémoriser. Résultat : certification obtenue et beaucoup plus d'assurance dans ma pratique.",
-      en: "I knew the PMP® would be a real challenge. BIFA EXAM gave me a progressive and reassuring preparation, without ever drowning me in theory. I learned to reason, not to memorize. Result: certification obtained and much more confidence in my practice.",
+      fr: "Je savais que le PMP® serait un vrai défi. Fin Mark m'a apporté une préparation progressive et rassurante, sans jamais me noyer dans la théorie. J'ai appris à raisonner, pas à mémoriser. Résultat : certification obtenue et beaucoup plus d'assurance dans ma pratique.",
+      en: "I knew the PMP® would be a real challenge. Fin Mark gave me a progressive and reassuring preparation, without ever drowning me in theory. I learned to reason, not to memorize. Result: certification obtained and much more confidence in my practice.",
     },
   },
   // {
@@ -58,8 +58,8 @@ const testimonials = [
   //   certification: 'Power BI PL-300',
   //   photo: '/images/esdras_program_dpro_foundation_examination.jpeg',
   //   text: {
-  //     fr: "Je voulais aller plus loin que l'utilisation basique de Power BI. BIFA EXAM m'a aidé à structurer ma compréhension de la modélisation, de l'analyse et de la visualisation des données. La préparation a été décisive pour réussir l'examen. Aujourd'hui, je me sens beaucoup plus à l'aise sur les sujets data et reporting.",
-  //     en: "I wanted to go beyond basic Power BI usage. BIFA EXAM helped me structure my understanding of data modeling, analysis and visualization. The preparation was decisive in passing the exam. Today, I feel much more comfortable with data and reporting topics.",
+  //     fr: "Je voulais aller plus loin que l'utilisation basique de Power BI. Fin Mark m'a aidé à structurer ma compréhension de la modélisation, de l'analyse et de la visualisation des données. La préparation a été décisive pour réussir l'examen. Aujourd'hui, je me sens beaucoup plus à l'aise sur les sujets data et reporting.",
+  //     en: "I wanted to go beyond basic Power BI usage. Fin Mark helped me structure my understanding of data modeling, analysis and visualization. The preparation was decisive in passing the exam. Today, I feel much more comfortable with data and reporting topics.",
   //   },
   // },
   {
@@ -76,8 +76,8 @@ const testimonials = [
     certification: 'Finance DPro® (PM4NGOs)',
     photo: '/images/esdras_finance_dpro_examination.png',
     text: {
-      fr: "La gestion financière des projets est exigeante. Grâce à BIFA EXAM, j'ai pu renforcer mon raisonnement et mes décisions financières. La préparation est claire et orientée pratique. Une certification qui apporte une vraie valeur sur le terrain.",
-      en: "Financial management of projects is demanding. Thanks to BIFA EXAM, I was able to strengthen my reasoning and financial decisions. The preparation is clear and practice-oriented. A certification that brings real value in the field.",
+      fr: "La gestion financière des projets est exigeante. Grâce à Fin Mark, j'ai pu renforcer mon raisonnement et mes décisions financières. La préparation est claire et orientée pratique. Une certification qui apporte une vraie valeur sur le terrain.",
+      en: "Financial management of projects is demanding. Thanks to Fin Mark, I was able to strengthen my reasoning and financial decisions. The preparation is clear and practice-oriented. A certification that brings real value in the field.",
     },
   },
   {
@@ -85,8 +85,8 @@ const testimonials = [
     certification: 'PMP®',
     photo: '/images/diabate_ali.jpg',
     text: {
-      fr: "Je ne voulais pas seulement réussir l'examen. Je voulais comprendre les standards et mieux structurer ma pratique du management de projets. BIFA EXAM m'a aidé à franchir ce cap. Aujourd'hui, j'applique ces principes au quotidien.",
-      en: "I didn't just want to pass the exam. I wanted to understand the standards and better structure my project management practice. BIFA EXAM helped me reach that milestone. Today, I apply these principles daily.",
+      fr: "Je ne voulais pas seulement réussir l'examen. Je voulais comprendre les standards et mieux structurer ma pratique du management de projets. Fin Mark m'a aidé à franchir ce cap. Aujourd'hui, j'applique ces principes au quotidien.",
+      en: "I didn't just want to pass the exam. I wanted to understand the standards and better structure my project management practice. Fin Mark helped me reach that milestone. Today, I apply these principles daily.",
     },
   },
   // {
@@ -94,8 +94,8 @@ const testimonials = [
   //   certification: 'Microsoft Office Excel',
   //   photo: '/images/rene_patrick_herve_kouadio_angoua_pmp.jpg',
   //   text: {
-  //     fr: "Excel est très utilisé, mais rarement maîtrisé en profondeur. La préparation avec BIFA EXAM m'a permis d'améliorer mes analyses et ma productivité. Des compétences immédiatement utiles en entreprise.",
-  //     en: "Excel is widely used but rarely mastered in depth. The preparation with BIFA EXAM helped me improve my analyses and productivity. Skills immediately useful in the workplace.",
+  //     fr: "Excel est très utilisé, mais rarement maîtrisé en profondeur. La préparation avec Fin Mark m'a permis d'améliorer mes analyses et ma productivité. Des compétences immédiatement utiles en entreprise.",
+  //     en: "Excel is widely used but rarely mastered in depth. The preparation with Fin Mark helped me improve my analyses and productivity. Skills immediately useful in the workplace.",
   //   },
   // },
   {
@@ -103,8 +103,8 @@ const testimonials = [
     certification: 'CISA®',
     photo: '/images/kouakou_alexis_kra.jpeg',
     text: {
-      fr: "Le CISA® est un examen exigeant et coûteux. Je ne voulais pas avancer sans visibilité. BIFA EXAM m'a montré à quoi m'attendre et comment me préparer efficacement. Cette préparation m'a permis d'aborder l'examen avec confiance.",
-      en: "The CISA® is a demanding and costly exam. I didn't want to move forward blindly. BIFA EXAM showed me what to expect and how to prepare effectively. This preparation allowed me to approach the exam with confidence.",
+      fr: "Le CISA® est un examen exigeant et coûteux. Je ne voulais pas avancer sans visibilité. Fin Mark m'a montré à quoi m'attendre et comment me préparer efficacement. Cette préparation m'a permis d'aborder l'examen avec confiance.",
+      en: "The CISA® is a demanding and costly exam. I didn't want to move forward blindly. Fin Mark showed me what to expect and how to prepare effectively. This preparation allowed me to approach the exam with confidence.",
     },
   },
   {
@@ -112,8 +112,8 @@ const testimonials = [
     certification: 'MEAL DPro® (PM4NGOs)',
     photo: '/images/esdras_meal_dpro.png',
     text: {
-      fr: "Le suivi-évaluation est au cœur de tout projet de développement. BIFA EXAM m'a permis de structurer mes compétences en MEAL et de réussir la certification. Une préparation claire et adaptée aux exigences du secteur.",
-      en: "Monitoring and evaluation is at the heart of every development project. BIFA EXAM helped me structure my MEAL skills and pass the certification. Clear preparation adapted to sector requirements.",
+      fr: "Le suivi-évaluation est au cœur de tout projet de développement. Fin Mark m'a permis de structurer mes compétences en MEAL et de réussir la certification. Une préparation claire et adaptée aux exigences du secteur.",
+      en: "Monitoring and evaluation is at the heart of every development project. Fin Mark helped me structure my MEAL skills and pass the certification. Clear preparation adapted to sector requirements.",
     },
   },
   {
@@ -121,8 +121,8 @@ const testimonials = [
     certification: 'Microsoft Office Excel',
     photo: '/images/esdras_microsoft_excel.png',
     text: {
-      fr: "Je voulais aller au-delà des formules de base. La préparation BIFA EXAM m'a permis de structurer mes analyses de données. Un gain immédiat en efficacité professionnelle.",
-      en: "I wanted to go beyond basic formulas. The BIFA EXAM preparation helped me structure my data analysis. An immediate gain in professional efficiency.",
+      fr: "Je voulais aller au-delà des formules de base. La préparation Fin Mark m'a permis de structurer mes analyses de données. Un gain immédiat en efficacité professionnelle.",
+      en: "I wanted to go beyond basic formulas. The Fin Mark preparation helped me structure my data analysis. An immediate gain in professional efficiency.",
     },
   },
   {
@@ -267,15 +267,15 @@ export const HomePage = () => {
       title: lang === 'fr' ? 'Une plateforme de préparation aux' : 'A preparation platform for',
       titleHighlight: lang === 'fr' ? 'certifications internationales' : 'international certifications',
       subtitle: lang === 'fr'
-        ? 'BIFA EXAM aide les candidats à comprendre les attentes réelles des examens, à se préparer avec méthode et à obtenir des certifications internationales qui renforcent leur crédibilité professionnelle.'
-        : 'BIFA EXAM helps candidates understand real exam expectations, prepare methodically and obtain international certifications that strengthen their professional credibility.',
+        ? 'Fin Mark aide les candidats à comprendre les attentes réelles des examens, à se préparer avec méthode et à obtenir des certifications internationales qui renforcent leur crédibilité professionnelle.'
+        : 'Fin Mark helps candidates understand real exam expectations, prepare methodically and obtain international certifications that strengthen their professional credibility.',
     },
     cta: {
       title: lang === 'fr' ? 'Prêt à' : 'Ready to',
       titleHighlight: lang === 'fr' ? 'réussir' : 'succeed',
       subtitle: lang === 'fr'
-        ? 'Faites partie des candidats qui ont préparé et réussi leurs certifications avec BIFA EXAM'
-        : 'Be one of the candidates who prepared for and passed their certifications with BIFA EXAM.',
+        ? 'Faites partie des candidats qui ont préparé et réussi leurs certifications avec Fin Mark'
+        : 'Be one of the candidates who prepared for and passed their certifications with Fin Mark.',
     },
     footer: {
       navigation: 'Navigation',
@@ -309,7 +309,7 @@ export const HomePage = () => {
 
               <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-extrabold leading-tight mb-4 sm:mb-6">
                 {labels.hero.title}{' '}
-                <span className="text-gradient inline-block">BIFA EXAM</span>
+                <span className="text-gradient inline-block">Fin Mark</span>
               </h1>
 
               <div className="inline-block mb-4 sm:mb-6">
@@ -528,7 +528,7 @@ export const HomePage = () => {
                 <div className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-1 sm:mb-2 drop-shadow-lg">
                   <AnimatedCounter value={97} suffix=" %" variant="light" />
                 </div>
-                <div className="text-sm sm:text-base text-white/70 font-medium">{lang === 'fr' ? 'Examens réussis avec BIFA EXAM' : 'Exams passed with BIFA EXAM'}</div>
+                <div className="text-sm sm:text-base text-white/70 font-medium">{lang === 'fr' ? 'Examens réussis avec Fin Mark' : 'Exams passed with Fin Mark'}</div>
               </div>
 
             </div>
@@ -696,7 +696,7 @@ export const HomePage = () => {
           {/* Copyright */}
           {/* <div className="border-t border-dark-800 pt-6 md:pt-8">
             <p className="text-xs sm:text-sm text-center">
-              © 2025 BIFA EXAM. {labels.footer.rights}.
+              © 2025 Fin Mark. {labels.footer.rights}.
             </p>
           </div> */}
         </div>

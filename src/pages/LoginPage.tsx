@@ -114,9 +114,9 @@ export const LoginPage = () => {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-2">
-            <img src="/bifa.png" alt="BIFA Logo" className="w-12 h-12 rounded-xl object-contain" />
+            <img src="/logo/zouzou_image.png" alt="FinMark" className="w-14 h-14 object-contain" />
             <h1 className="text-2xl font-bold text-white flex items-center gap-2">
-              BIFA <span className="text-gradient">EXAM</span>
+              Fin <span className="text-gradient">Mark</span>
               {/* <Sparkles className="w-4 h-4 text-yellow-500 animate-pulse" /> */}
             </h1>
           </div>

@@ -56,14 +56,14 @@ export const Header = () => {
                 <div className="relative">
                   <div className="absolute inset-0 rounded-xl blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-300 bg-primary-500" />
                   <img
-                    src="/bifa.png"
-                    alt="BIFA Logo"
-                    className="relative w-9 h-9 sm:w-11 sm:h-11 rounded-xl object-contain shadow-lg transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
+                    src="/logo/zouzou_image.png"
+                    alt="FinMark"
+                    className="relative w-10 h-10 sm:w-12 sm:h-12 object-contain transition-transform duration-300 group-hover:scale-110 group-hover:rotate-3"
                   />
                 </div>
                 <div>
                   <h1 className="text-base sm:text-xl font-bold text-dark-900 dark:text-white flex items-center gap-1 sm:gap-2">
-                    BIFA <span className="text-gradient">EXAM</span>
+                    Fin <span className="text-gradient">Mark</span>
                     {/* <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-yellow-500 animate-pulse" /> */}
                   </h1>
                 </div>

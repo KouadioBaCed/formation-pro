@@ -23,7 +23,7 @@ const PrivacyAndTermsPage = () => {
             </div>
             <h1 className="text-xl sm:text-2xl md:text-3xl font-bold">CGU & Politique de confidentialit&eacute;</h1>
           </div>
-          <p className="text-primary-100 text-sm sm:text-base">Plateforme BIFA EXAM</p>
+          <p className="text-primary-100 text-sm sm:text-base">Plateforme Fin Mark</p>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ const PrivacyAndTermsPage = () => {
             <Section title="Article 1 – Objet">
               <p>
                 Les pr&eacute;sentes Conditions G&eacute;n&eacute;rales d&apos;Utilisation (CGU) r&eacute;gissent l&apos;acc&egrave;s et l&apos;utilisation
-                de la plateforme BIFA Exam, propri&eacute;t&eacute; exclusive de BIFA Institute, d&eacute;di&eacute;e &agrave; la pr&eacute;paration,
+                de la plateforme Fin Mark, propri&eacute;t&eacute; exclusive de BIFA Institute, d&eacute;di&eacute;e &agrave; la pr&eacute;paration,
                 &agrave; l&apos;entra&icirc;nement et &agrave; l&apos;&eacute;valuation des candidats aux certifications professionnelles.
               </p>
               <p>
@@ -60,7 +60,7 @@ const PrivacyAndTermsPage = () => {
                 <li>Des outils de pr&eacute;paration aux certifications professionnelles</li>
               </ul>
               <p>
-                Tout le contenu diffus&eacute; dans le cadre du BIFA Exam rel&egrave;ve exclusivement de la
+                Tout le contenu diffus&eacute; dans le cadre de Fin Mark rel&egrave;ve exclusivement de la
                 responsabilit&eacute; de BIFA Institute et n&apos;engage en aucune mani&egrave;re les institutions
                 internationales de r&eacute;f&eacute;rence.
               </p>

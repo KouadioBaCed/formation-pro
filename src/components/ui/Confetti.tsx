@@ -16,14 +16,14 @@ interface ConfettiProps {
 }
 
 const colors = [
-  '#3b82f6', // primary blue
-  '#06b6d4', // cyan
-  '#10b981', // green
-  '#f59e0b', // yellow
+  '#3FA055', // primary green
+  '#6DBE45', // mid green
+  '#8CC63F', // light green
+  '#B7D334', // highlight
   '#ec4899', // pink
   '#8b5cf6', // purple
   '#ef4444', // red
-  '#f97316', // orange
+  '#C9DD55', // accent
 ];
 
 export const Confetti = ({ isActive, duration = 3000 }: ConfettiProps) => {

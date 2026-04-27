@@ -42,6 +42,16 @@ export const extendUserExpiration = async (uid: string, months: number = 1): Pro
   await updateDoc(doc(db, 'users', uid), { expiresAt: baseDate.toISOString() });
 };
 
+export const setUserExpiration = async (
+  uid: string,
+  expiresAt: string,
+  activate: boolean = true,
+): Promise<void> => {
+  const updates: Record<string, unknown> = { expiresAt };
+  if (activate) updates.isActive = true;
+  await updateDoc(doc(db, 'users', uid), updates);
+};
+
 // ── Exam Results ──
 
 export const saveExamResult = async (result: Omit<StoredExamResult, 'id'>): Promise<string> => {
